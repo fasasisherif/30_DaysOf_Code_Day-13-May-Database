@@ -1,0 +1,124 @@
+.attribution { margin-bottom:3pc; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+		padding:0;
+		margin:0;
+		background-color:hsl(180, 31%, 95%);
+		font-family:spartan;
+		font-size:15px;
+		}
+.one,.two{
+		background-color:hsl(180, 52%, 96%);
+		width:81%;
+		margin:3pc auto;
+		padding:10px;
+		border-radius:5px;
+		border-left:6px solid hsl(180, 29%, 50%);
+		box-shadow:3px 5px 15px hsl(180, 29%, 50%);
+		}    
+.two{
+		border-left:0px;
+		}
+.top{
+		font-weight:bold;
+		}    
+.group1,.group2{
+		width:100%;
+		display:flex;
+		justify-conten:space-around;
+		padding:10px 0px;
+		align-self:center;		
+		} 
+.group1 > div{
+		margin-left:1pc;
+		}
+.group2{
+				margin-bottom:1.3pc;
+				padding:10px 0px;
+				color:hsl(180, 8%, 52%);
+				font-weight: light;
+				justify-content:space-around;
+				}
+hr{
+		color:hsl(180, 8%, 52%);
+		}
+.photo{
+		align-self:center;
+		color:hsl(180, 29%, 50%);
+		}   
+.new{
+		background-color:hsl(180, 29%, 50%);
+		padding:4px 8px;
+		border-radius:15px;
+		color:hsl(180, 52%, 96%);
+		align-self:center;
+		}    
+.fea{
+		background-color:hsl(180, 14%, 20%);
+		color:hsl(180, 52%, 96%);
+		padding:4px 8px;
+		align-self:center;
+		border-radius:15px;
+		}    
+.sen{
+		width:94%;
+		font-weight:bold;
+		font-size:15px;
+		margin:auto;
+		}
+.bottom{
+				display:flex;
+				flex-wrap:wrap;
+				align-content:space-between;
+				font-weight:bold;
+				}
+.bottom > div {
+				margin:.5pc 1pc auto 0pc;
+				background-color:hsl(180, 31%, 95%);
+				padding:7px;
+				border-radius:5px;
+				color:hsl(180, 29%, 50%);
+				}
+.head{
+				overflow:hidden;
+				margin-bottom:3pc;
+				background-color:hsl(180, 29%, 50%);
+				}
+.account0{
+				width:18%;
+				margin-top:-2pc;
+				}
+
+
+
+@media (min-width:375px){
+.head{
+		height:15vh;
+		}
+.one{
+		display:flex;
+		align-content:center;
+		justify-content:space-between;
+		}		
+hr{
+		display:none;
+		}	
+.left_side{
+		display:flex;
+		align-self:center;
+		}		
+.account1{
+		align-self:center;
+		}		
+.account0{
+		margin:0pc;
+	 width:100%;
+		}	
+.bottom,.top{
+		align-self:center;
+		}
+.bottom{
+		width:35%;
+		}	
+	}
